@@ -1,0 +1,51 @@
+@media screen and ( max-width: 990px ){
+    .list{
+        display: none;
+    }
+    #logo{
+        position: absolute;
+        left: 50%;
+        margin-left: -56px;
+    }
+    .drop-down{
+        display: block;
+    }
+    .section1{
+        height: 545px;
+    }
+    .section1 .Establish{
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+    }
+    .section2 .simple{
+        display: none;
+    }
+    .section2 .food{
+        display: block;
+        max-width: 990px;
+        text-align: center;
+    }
+    .section3 .template .template-pic{
+        float: none;
+        width: 100%;
+    }
+    .section3 .template .template-word{
+        float: none;
+        width: 100%;
+    }
+    .section3 .template .template-word h2{
+        text-align: center;
+    }
+    .section6 .function{
+        max-width: 710px;
+        height: 1000px;
+
+    }
+    .section6 .function li{
+        width: 90%;
+        margin: 10px 30px;
+    }
+}

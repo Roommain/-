@@ -1,0 +1,86 @@
+header{
+     position: relative;
+     width: 100%;
+     height: 70px;
+     background-color: #333;
+}
+#logo{
+    float: left;
+    margin-right: 50px;
+}
+.content{
+    max-width: 1200px;
+    margin: auto;
+    line-height: 70px;
+    padding: 0 20px;
+}
+.list{
+    float: left;
+    color: white;
+}
+.list li{
+    float: left;
+    padding: 0 22px;
+    cursor: pointer;
+}
+.list li .File{
+    overflow: hidden;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    height:0;
+    border-top: 1px solid #444444;
+    background-color: #000055;
+    transition: 1s;
+}
+.list li:nth-child(5):hover .File{
+    height:200px;
+}
+.list li:nth-child(6):hover .File{
+    height: 260px;
+}
+.list li .File .File-a{
+    max-width: 1000px;
+    margin: 30px auto 0;
+    color: #bbbbbb;
+}
+.list li .File .File-a li{
+    line-height: 30px;
+    margin-right: 80px;
+    margin-bottom: 20px;
+}
+.list li .File .File-a li .one{
+    color: #eaffea;
+}
+.list li .File .File-a span{
+    color: #eaffea;
+}
+.list li .File .File-a li a:first-child{
+    margin-right: 35px;
+}
+.action{
+    float: right;
+    width: 140px;
+    height: 50px;
+    color: white;
+    padding-top: 20px;
+}
+.action i{
+    float: left;
+    width: 30px;
+    height: 30px;
+    font-size: 24px;
+    text-align: center;
+    line-height: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.drop-down{
+    color: white;
+    float: left;
+    margin-left: 20px;
+    display: none;
+}
+
+

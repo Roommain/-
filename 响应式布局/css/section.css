@@ -1,0 +1,199 @@
+.section1 {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+.membrane{
+    background-color: rgba(1,1,1,0.5);
+}
+.section1 .Establish{
+    position: absolute;
+    bottom: 30%;
+    right: 10%;
+    width: 400px;
+    height: 380px;
+}
+.section1 .Establish .text{
+    text-align: center;
+    color: #c3c3c3;
+}
+.section1 .Establish .text h2{
+    font-size: 40px;
+    font-weight: normal;
+    margin-bottom: 50px;
+}
+.section1 .Establish .text p{
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.section1 .Establish .account{
+    width: 260px;
+    height: 60px;
+    border: 1px solid white;
+    color: white;
+    background-color: rgba(0,0,0,0.1);
+    font-size: 24px;
+    text-align: center;
+    line-height: 60px;
+}
+.section1 .Establish .account:hover{
+    background-color: white;
+    color: #cccccc;
+}
+.section2{
+    width: 100%;
+    height: 800px;
+    background-color: white;
+}
+.section2 .text{
+    text-align: center;
+    color: #000;
+    margin-top: 60px;
+}
+.section2 .text h2{
+    font-size: 40px;
+    font-weight: normal;
+    margin-bottom: 50px;
+}
+.section2 .text p{
+    font-size: 20px;
+    padding: 0 0 20px;
+}
+.section2 .simple{
+    position: relative;
+    max-width: 1000px;
+    height: 700px;
+    margin: auto;
+    background-image: url("../images/section/section2/computer.png");
+}
+.section2 .simple .simple-media{
+    overflow: hidden;
+    position: absolute;
+    top: 40px;
+    left: 120px;
+    margin: auto;
+    width: 760px;
+    height: 410px;
+}
+.section2 .food{
+    display: none;
+}
+.section3{
+    width: 100%;
+    background-color: #f9f9f9;padding-top: 80px;
+    padding-bottom: 50px;
+}
+.section3 .template{
+    width: 80%;
+    margin: auto;
+}
+.section3 .template .template-pic{
+    width: 50%;
+    height: 100%;
+}
+.section3 .template .template-word{
+    width: 50%;
+    height: 100%;
+    letter-spacing: 1px;
+    text-align:justify
+}
+.section3 .template .template-word h2{
+    font-size: 36px;
+    font-weight: normal;
+    margin-bottom: 30px;
+    color: #00aaff;
+}
+.section3 .template .template-word p{
+    line-height: 32px;
+    font-size: 16px;
+}
+.section6{
+    width: 100%;
+    background-color: #e9e9e9;
+    padding-top: 100px;
+}
+.section6 .text{
+    text-align: center;
+}
+.section6 .text h2{
+    font-size: 40px;
+    font-weight: normal;
+}
+.section6 .text p{
+    padding: 30px 0 70px;
+    font-size: 16px;
+}
+.section6 .function{
+    max-width: 940px;
+    height: 350px;
+    margin: auto;
+}
+.section6 .function li{
+    float: left;
+    width: 300px;
+    height: 140px;
+    border: 1px solid #cccccc;
+    margin: 5px;
+}
+.section6 .function .box{
+    width: 82px;
+    height: 70px;
+    padding-top: 30px;
+    margin: auto;
+}
+.section6 .function p{
+    width: 100%;
+    text-align: center;
+}
+.section6 .function li:hover{
+    background-color: white;
+    border: 1px solid lightskyblue;
+}
+.footer{
+    padding-top: 50px;
+    width: 100%;
+    height: 400px;
+    background-color: #f9f9f9;
+}
+.footer .foot{
+    max-width: 90%;
+    margin: auto;
+}
+.footer .foot ul li{
+    float: left;
+    line-height: 40px;
+    margin: 0 1%;
+}
+.Navigation{
+    width: 56px;
+    height: 220px;
+    position: fixed;
+    right: 0;
+    top: 50%;
+    margin-top: -135px;
+    background-color: skyblue;
+}
+.Navigation ul{
+    width: 56px;
+}
+.Navigation ul li i{
+    font-size: 40px;
+}
+.Navigation ul li span{
+    font-size: 24px;
+    line-height: 55px;
+    padding-left: 10px;
+}
+.Navigation ul li{
+    width: 155px;
+    height: 55px;
+    padding-left: 5px;
+    transition:1s;
+    cursor: pointer;
+    position: relative;
+    right: 0;
+    background-color: skyblue;
+}
+.Navigation ul li:hover {
+    right: 100px;
+}
